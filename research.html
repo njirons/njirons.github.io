@@ -5,40 +5,86 @@ title:  'Research'
 
 <h1 style="margin-top:0;">Research</h1>
 
- <!--
- <p class = "lead"><small>My research objectives emphasize the development of user-friendly, statistically sound, and open-source software that addresses practical scientific challenges and empowers non-statisticians/data scientists to work more directly with their data.
-    I deeply value interdisciplinary collaboration, and welcome you to <a class = "active" href="contact.html">contact me</a> if you are interested. 
-    You can find detailed information about my publications, software, and other work on <a class="active" href="cv.html">my CV</a>.</small></p>
- -->
+ <h3 style="margin-top:0">Interests</h3>
 
-<h4 style="margin-top:0">Publications</h4>
+ <p class = "lead">
+ <b>Bayesian methodology.</b>
+   <ul>
+	<li>Nonparametrics, high-dimensional regression, classification, and density estimation.</li>
+     	<li>Incorporating machine learning methods into Bayesian workflow.</li>
+     	<li>Bayesian model selection and hypothesis testing.</li>
+	<li>Combining mechanistic/mathematical and statistical models.</li>
+	<li>Spatiotemporal modeling.</li> 
+	<li>Efficient, scalable, automatic inference for high-dimensional, big data, and mechanistic models.</li>
+	<li>Simulation-based inference.</li>
+   </ul>
+ </p>
 
-<!--
-<p class="content" style="padding:0px;margin:0px 20px 0px;">
-  I work with <a href = "https://faculty.washington.edu/dwitten/">Daniela Witten</a> and 
-    <a href = "https://faculty.washington.edu/adwillis/">Amy Willis</a> to develop methods for proper statistical analysis of the microbiome. 
-  I am the developer of corncob, a regression model and hypothesis testing procedure developed 
-  to address the challenges of microbiome data, implemented as an R software package.
-   Our proposal uses observed absolute abundance information to 
-  make inference about the latent microbial population.
-   The method is published in <i>Annals of Applied Statistics</i>
-  (available <a href = "https://projecteuclid.org/euclid.aoas/1587002666">here</a>) and the software is available 
-  <a href = "https://github.com/bryandmartin/corncob">here</a>.
-  <br/><br/>
-  I am currently working on investigating the impact of efficiencies, or systematic differences between microbial population relative abundances and the expected observed sample relative abundances (e.g. from preferential sampling, PCR amplification, etc). 
-  We are investigating the impact of model misspecification from efficiencies on differential abundance methods that do not account for them.
-  We are also exploring models that are able to able to conduct valid inference on parameters of interest for differential abundance even in the presence of efficiences.
-  <br/><br/>
-  I also helped develop DivNet, 
-  a method for estimating alpha and beta diversity of microbial communities when taxa interact via an ecological network.
-  The method is published in <i>Biostatistics</i> (available <a href = "https://academic.oup.com/biostatistics/advance-article/doi/10.1093/biostatistics/kxaa015/5841114">here</a>) and
-  the software is available <a href = "https://github.com/adw96/DivNet">here</a>.
-</p>
+ <p class = "lead">
+ <b>Causal inference, missing data, selection.</b>
+   <ul>
+	<li>Prior specification and elicitation in high-dimensional and non-identified models.</li>
+     	<li>Robust inference and sensitivity analysis.</li>
+     	<li>Bayesian causal inference.</li>
+	<li>Time-varying treatments.</li>
+	<li>Principled composition of Bayesian models.</li>
+	<li>Modeling survey data.</li> 
+   </ul>
+ </p>
+
+ <p class = "lead">
+ <b>Public health and medicine.</b>
+   <ul>
+	<li>Providing health practitioners with (Bayesian) statistical tools and
+actionable information by which to make informed decisions.</li>
+     	<li>Design and analysis of experiments.</li>
+     	<li>Survival analysis.</li>
+	<li>Infectious disease modeling.</li>
+   </ul>
+ </p>
+
+ <h3 style="margin-top:0">Philosophy</h3>
+
+ <p class = "lead">
+  Bayesian statistics provides a unified and coherent framework for estimation and inference in probabilistic models. The Bayesian update is optimal from a decision theory perspective and it conforms to the maximum entropy and likelihood principles. Bayesian modeling easily accommodates combining data from multiple sources, pooling evidence, and quantifying uncertainty, even in non-standard models for which frequentist inference would require laborious <em>ad hoc</em> calculation or bootstrapping (the validity of which is not guaranteed and can be difficult to verify). Bayesian inference does not rely on asymptotics and Bayesian models often exhibit superior predictive performance (e.g., BART in nonparametric settings). While turning the Bayesian crank has never been easier, computational burden remains a key challenge in the competitiveness of Bayesian methods. 
+ </p>
+
+ <p class = "lead">
+  From a methodological perspective, I am interested in expanding Bayesian statistics into new frontiers (e.g., in causal inference and nonparametrics) both through principled modeling and by improving the efficiency and scalability of posterior inference algorithms (e.g., by incorporating machine learning methods into Bayesian workflow, finding useful parametrizations, or developing sampling algorithms tailored to specific models).
+ </p>
+
+ <p class = "lead">
+  From a modeling perspective, I enjoy drawing on my training in physics to build scientifically-informed (and often mechanistic) models of complex data. I have extensive experience with statistical modeling of data described by differential equations, whether the SIR equations or those of Ornstein-Uhlenbeck, Hamilton, Euler-Lagrange, and Schrödinger. In applied work, I endeavor to provide decision-makers with statistical tools and
+actionable information by which to make informed choices.
+ </p>
+
+<h3 style="margin-top:0">Publications</h3>
+
+   <ul>
+	<li>E. Vamva et al., <em>A lentiviral vector B cell gene therapy platform for the delivery of the anti-HIV-1 eCD4-Ig-knob-in-hole-reversed immunoadhesin.</em> <a href="https://doi.org/10.1016/j.omtm.2023.02.004">Molecular Therapy Methods & Clinical Development</a> (2023).</li>
+     	<li><u>N. J. Irons</u>, M. Scetbon, S. Pal, and Z. Harchaoui, <em>Triangular Flows for Generative Modeling: Statistical Consistency, Smoothness Classes, and Fast Rates.</em> <a href="https://proceedings.mlr.press/v151/irons22a/irons22a.pdf">Proceedings of AISTATS 2022.</a></li>
+     	<li><u>N. J. Irons</u> and  A. E. Raftery, <em>Estimating SARS-CoV-2 Infections from Deaths, Confirmed Cases, Tests, and Random Surveys.</em> <a href="https://www.pnas.org/content/118/31/e2103272118.short">Proceedings of the National Academy of Sciences 118 (31)</a> (2021).
 <br/>
-<h4>Small-Area Spatio-temporal Modeling</h4>
-<p class="content" style="padding:0px;margin:0px 20px 0px;">
-  I also work on developing spatio-temporal models for under-five mortality estimation with complex survey data 
-  with a group led by  <a href = "https://faculty.washington.edu/jonno/">Jon Wakefield</a> and  
-  <a href = "https://sociology.osu.edu/people/clark.2962">Sam Clark</a>. The method is published in PLoS One (available <a href = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210645">here</a>) and our software, SUMMER, is available on CRAN <a href = "https://CRAN.R-project.org/package=SUMMER">here</a>.
-</p>
- -->
+Media coverage in <a href="https://www.latimes.com/science/story/2021-07-26/us-coronavirus-cases-may-be-double-official-tally">LA Times</a>, <a href="https://www.bloomberg.com/news/articles/2021-07-26/up-to-60-of-u-s-covid-19-cases-unreported-disease-model-says">Bloomberg</a>, <a href="https://www.theguardian.com/us-news/2021/jul/26/us-covid-cases-undercounted-study">the Guardian</a>, and <a href="https://www.altmetric.com/details.php?domain=www.pnas.org&citation_id=110494982&tab=news">others</a>
+<br/></li>
+	<li>N. Earnest et al., <em>Realization of a Lambda System with Metastable States of a Capacitively Shunted Fluxonium.</em> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.150504">Physical Review Letters 120, 150504</a> (2018).</li>
+	<li>B. Baker, A. C. Y. Li, <u>N. Irons</u>, N. Earnest, and J. Koch, <em>Adaptive Rotating-Wave Approximation for Driven Open Quantum Systems.</em> <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.052111">Physical Review A 98, 052111</a> (2018).</li>
+   </ul>
+
+<h3 style="margin-top:0">Preprints</h3>
+
+   <ul>
+	<li><u>N. J. Irons</u> and C. Cinelli, <em>Causally Sound Priors for Binary Experiments.</em> <a href="https://arxiv.org/abs/2308.13713">arXiv preprint</a> (2023).</li>
+     	<li>M. Metodiev, M. Perrot-Dockès, S. Ouadah, <u>N. J. Irons</u>, A. E. Raftery, <em>Easily Computed Marginal Likelihoods from Posterior Simulation Using the THAMES Estimator.</em> <a href="https://arxiv.org/abs/2305.08952">arXiv preprint</a> (2023).</li>
+     	<li>L. Badolato<sup>*</sup>, A. Decter-Frain<sup>*</sup>, <u>N. J. Irons</u><sup>*</sup>, M. Miranda<sup>*</sup>, E. Walk<sup>*</sup>, E. Zhalieva<sup>*</sup>, M. Alexander, U. Basellini, E. Zagheni, <em>Predicting individual-level longevity with statistical and machine learning methods.</em> <a href="https://www.demogr.mpg.de/papers/working/wp-2023-008.pdf">MPIDR Working Papers</a> (2023). (<sup>*</sup> = equal first authors.)</li>
+   </ul>
+
+<h3 style="margin-top:0">Software</h3>
+
+   <ul>
+	<li><a href="https://cran.r-project.org/web/packages/thames/index.html">thames</a>: Truncated Harmonic Mean Estimator (THAMES) of the Marginal Likelihood. (Author, maintainer)</li>
+     	<li><a href="https://github.com/njirons/causally-sound">brease</a>: Causally Sound Priors for Binary Experiments via the Baseline Risk, Efficacy, and Adverse Side Effects (BREASE) of Treatment. (Author, maintainer)</li>
+     	<li><a href="https://github.com/njirons/covidest">covidest</a>: Estimating SARS-CoV-2 Infections from Deaths, Confirmed Cases, Tests, and Random Surveys (Author, maintainer)</li>
+	<li><a href="https://github.com/scqubits/scqubits">scqubits</a>: Superconducting Qubits in Python (Contributor)</li>
+   </ul>
+
